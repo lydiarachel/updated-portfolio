@@ -23,7 +23,19 @@ body {
     margin-left: 15%;
     margin-top: 10%;
 }
+#animate-pic{
+    -webkit-animation-delay: .4s;
+}
+#name-title{
+    -webkit-animation-delay: .6s;
+}
 
+
+#flower {
+    margin-top: -10%;
+    margin-left: 5%;
+    -webkit-animation-delay: .8s;
+}
 .frontPageText{
  padding: 50px;
 }
@@ -40,10 +52,7 @@ body {
     text-align: center;
 }
 
-#flower {
-    margin-top: -10%;
-    margin-left: 5%;
-}
+
 
 /* nav {
     position: fixed;
