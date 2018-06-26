@@ -201,12 +201,9 @@ header {
 
 .selfie img { 
     width: 280px;
-    height: auto;
-    margin: 80px;
-    border-bottom-left-radius: 50%;
-    border-bottom-right-radius: 50%;
-    border-top-right-radius: 50%;
-    border-top-left-radius: 50%;
+    height: 280px;
+    margin: 90px;
+    border-radius: 50%
 }
 
 
