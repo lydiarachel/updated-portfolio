@@ -6,292 +6,378 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Lydia Velasquez Portfolio</title>
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-        crossorigin="anonymous">
+
     <!--Animate CSS CDN-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-    <!--Custom Fonts-->
-    <!--Custom Style-->
+    <!--GoogleFonts-->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,400i,700,800,900" rel="stylesheet">
+    <!--Font Awesome Icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Normalize CSS-->
+    <link rel="stylesheet" type="text/css" href="./assets/css/normalize.css">
+    <!--Grid CSS-->
+    <link rel="stylesheet" type="text/css" href="./assets/css/grid.css">
+    <!--Devicon-->
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+    <!--My CSS-->
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <!--My Media Queries-->
+    <link rel="stylesheet" type="text/css" href="./assets/css/queries.css ">
 </head>
 
-<body id="page-top">
+<body>
+    <!--Header and Nav-->
+    <header>
+        <nav>
+            <div class="row">
+                <ul class="main-nav js--main-nav">
+                    <li>
+                        <a href="#about">About</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#skills">Skills</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+                    <li>
+                        <a href="#resume">Resume</a>
+                    </li>
+                </ul>
+                <a class="mobile-nav-icon js--nav-icon">
+                    <ion-icon name="menu" class="mobile-menu"></ion-icon>
+                </a>
+            </div>
+        </nav>
+        <div class="row">
+            <div class="col span-1-of-2 animated slideInLeft">
+                <h1 class="name-title">Lydia Velasquez</h1>
+                <h2 class="job-title">Designer &#38; Front End Developer</h2>
+            </div>
+            <div class="col span-1-of-2 selfie animated slideInRight">
+                <img src="assets/images/me.JPG">
+            </div>
+        </div>
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-expand-lg bg-secondary fixed-top text-uppercase" id="mainNav">
+        <figure class="flower animated fadeInUp">
+            <img src="assets/images/flowerscreen.png">
+        </figure>
+
+        <a href="#" class="btn-arrow">
+            <i class="fa fa-angle-double-down js--scroll-down"></i>
+        </a>
+    </header>
+
+    <!--About Section-->
+    <section class="section-about js--section-about" id="about">
+        <div class="row">
+            <h2 class="about">About.</h2>
+            <p class="long-copy">
+                A mid-career professional, with a creative spirit that will spark innovative light on your business. Over six (6) years of
+                experience in leadership, in both the areas of project and team management, seeking a Software Quality Assurance
+                or Junior FrontEnd Web Development position.
+                <br>
+                <br> My favorite quote and something that I try to live by each day...
+                <br>
+                <br>
+                <center>
+                    <i>"If your dreams do not scare you, they are not big enough."</i>
+                </center>
+            </p>
+        </div>
+    </section>
+
+    <!--Portfolio Section-->
+    <section class="section-portfolio js-section-portfolio" id="portfolio">
+        <div class="row">
+            <h2>Portfolio</h2>
+        </div>
+
+        <ul class="portfolio-showcase clearfix">
+            <li>
+                <figure class="portPhoto textOverImage" data-text="Hangman Breakfast At Tiffany's">
+                    <a href="https://lydiarachel.github.io/Hangman-Game/" target="_blank">
+                        <img src="assets/images/tiffanys.jpg" alt="Breakfast at Tiffany's">
+                    </a>
+                </figure>
+            </li>
+            <li>
+                <figure class="portPhoto textOverImage" data-text="GifTastic!">
+                    <a href="https://lydiarachel.github.io/GifTastic/" target="_blank">
+                        <img src="assets/images/love.gif" alt="GifTastic">
+                    </a>
+                </figure>
+            </li>
+            <li>
+                <figure class="portPhoto textOverImage" data-text="Crystals Collectors Game">
+                    <a href="https://lydiarachel.github.io/unit-4-game/" target="_blank">
+                        <img src="assets/images/crystal.png" alt="Crystals Game">
+                    </a>
+                </figure>
+            </li>
+            <li>
+                <figure class="portPhoto textOverImage" data-text="ThunderCats Trivia">
+                    <a href="https://lydiarachel.github.io/TriviaGame/" target="_blank">
+                        <img src="assets/images/trivia.png" alt="Trivia">
+                    </a>
+                </figure>
+            </li>
+        </ul>
+
+        <ul class="portfolio-showcase clearfix">
+            <li>
+                <figure class="portPhoto textOverImage" data-text="OmniFood Project">
+                    <a href="https://lydiarachel.github.io/omnifoodProject/" target="_blank">
+                        <img src="assets/images/omnifoodproject.png" alt="OmniFoodProject">
+                    </a>
+                </figure>
+            </li>
+            <li>
+                <figure class="portPhoto textOverImage" data-text="FriendFinder">
+                    <a href="https://rocky-crag-53861.herokuapp.com/" target="_blank">
+                        <img src="assets/images/friendfinder.png" alt="FriendFinder">
+                    </a>
+                </figure>
+            </li>
+            <li>
+                <figure class="portPhoto textOverImage" data-text="MySQL Bamazon App">
+                    <a href="https://github.com/lydiarachel/Bamazon" target="_blank">
+                        <img src="assets/images/bamazon.png" alt="bamazon">
+                    </a>
+                </figure>
+            </li>
+            <li>
+                <figure class="portPhoto textOverImage" data-text="Full Stack Burger App">
+                    <a href="https://shrouded-wave-33733.herokuapp.com/" target="_blank">
+                        <img src="assets/images/burger.png" alt="Burger">
+                    </a>
+                </figure>
+            </li>
+        </ul>
+    </section>
+
+    <!--Skills-->
+    <section class="section-skills" id="skills">
+        <div class="row">
+            <h2>You know, like nunchuck skills,
+                <br>bo hunting skills, computer hacking skills.</h2>
+        </div>
+
         <div class="container">
-            <a class="navbar-brand js-scroll-trigger" href="#page-top">Home</a>
-            <button class="navbar-toggler navbar-toggler-right text-uppercase bg-primary text-white rounded" type="button" data-toggle="collapse"
-                data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                Menu
-                <i class="fa fa-bars"></i>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ml-auto">
 
-                    <li class="nav-item mx-0 mx-lg-1">
-                        <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">About</a>
+            <!--First skillset Row-->
+            <div class="row">
+                <div class="col span-1-of-4 box">
+                    <div class="skillset">
+                        <span>
+                            <i class="devicon-html5-plain fa-5x  mt-2 s" aria-hidden="true"></i>
+                        </span>
+                        <h5 class="skill_name">HTML</h5>
+                    </div>
+                </div>
+
+                <div class="col span-1-of-4 box">
+                    <div class="skillset">
+                        <span>
+                            <i class="devicon-css3-plain fa-5x  mt-2" aria-hidden="true"></i>
+                        </span>
+                        <h5 class="skill_name">CSS</h5>
+                    </div>
+                </div>
+
+                <div class="col span-1-of-4 box">
+                    <div class="skillset">
+                        <span>
+                            <i class="devicon-bootstrap-plain fa-5x mt-3" aria-hidden="true"></i>
+                        </span>
+                        <h5 class="skill_name">BOOTSTRAP</h5>
+                    </div>
+                </div>
+
+                <div class="col span-1-of-4 box">
+                    <div class="skillset">
+                        <span>
+                            <i class="devicon-javascript-plain fa-5x mt-3" aria-hidden="true"></i>
+                        </span>
+                        <h5 class="skill_name">JAVASCRIPT</h5>
+                    </div>
+                </div>
+            </div>
+
+            <!--Second skillset Row-->
+            <div class="row">
+                <div class="col span-1-of-4 box">
+                    <div class="skillset">
+                        <span>
+                            <i class="devicon-jquery-plain fa-5x mt-3" aria-hidden="true"></i>
+                        </span>
+                        <h5 class="skill_name">JQuery</h5>
+                    </div>
+                </div>
+
+                <div class="col span-1-of-4 box">
+                    <div class="skillset">
+                        <span>
+                            <i class="devicon-git-plain fa-5x mt-3" aria-hidden="true"></i>
+                        </span>
+                        <h5 class="skill_name">GIT</h5>
+                    </div>
+                </div>
+
+                <div class="col span-1-of-4 box">
+                    <div class="skillset">
+                        <span>
+                            <i class="devicon-github-plain fa-5x mt-3" aria-hidden="true"></i>
+                        </span>
+                        <h5 class="skill_name">GitHub</h5>
+                    </div>
+                </div>
+
+                <div class="col span-1-of-4 box">
+                    <div class="skillset">
+                        <span>
+                            <i class="devicon-mysql-plain fa-5x mt-3" aria-hidden="true"></i>
+                        </span>
+                        <h5 class="skill_name">MySQL</h5>
+                    </div>
+                </div>
+            </div>
+
+            <!--Third skillset Row-->
+
+            <div class="row">
+                <div class="col span-1-of-4 box">
+                    <div class="skillset">
+                        <span>
+                            <i class="devicon-nodejs-plain fa-5x mt-3" aria-hidden="true"></i>
+                        </span>
+                        <h5 class="skill_name">Node JS</h5>
+                    </div>
+                </div>
+
+                <div class="col span-1-of-4 box">
+                    <div class="skillset">
+                        <span>
+                            <i class="devicon-sequelize-plain fa-5x mt-3" aria-hidden="true"></i>
+                        </span>
+                        <h5 class="skill_name">Sequelize</h5>
+                    </div>
+                </div>
+
+                <div class="col span-1-of-4 box">
+                    <div class="skillset">
+                        <span>
+                            <i class="devicon-express-original fa-5x mt-3" aria-hidden="true"></i>
+                        </span>
+                        <h5 class="skill_name">Express</h5>
+                    </div>
+                </div>
+
+                <div class="col span-1-of-4 box">
+                    <div class="skillset">
+                        <span>
+                            <i class="devicon-mocha-plain fa-5x mt-3" aria-hidden="true"></i>
+                        </span>
+                        <h5 class="skill_name">Mocha</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Contact Section-->
+    <section class="section-form" id="contact">
+        <div class="row">
+            <h2>Happy Happy, Joy Joy!</h2>
+        </div>
+        <div class="row">
+            <form method="post" action="#" class="contact-form">
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label for="name">Name</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <input type="text" name="name" id="name" placeholder="Your Name" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label for="email">Email</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <input type="email" name="email" id="email" placeholder="Your Email" required>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label>&nbsp;</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <input type="submit" value="Send It" class="btn btn-full">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!--Footer-->
+    <footer>
+        <div class="row">
+            <div class="col span-1-of-2">
+                <ul class="footer-nav">
+                    <li>
+                            <p><ion-icon name="call"></ion-icon> 646.221.0058</p>
                     </li>
-                    <li class="nav-item mx-0 mx-lg-1">
-                        <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Portfolio</a>
+                    <li>
+                            <p><ion-icon name="mail"></ion-icon> lydiarachel@gmail.com</p>
                     </li>
-                    <li class="nav-item mx-0 mx-lg-1">
-                        <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contact</a>
+                </ul>
+            </div>
+            <div class="col span-1-of-2">
+                <ul class="social-links">
+                    <li>
+                        <a href="https://github.com/lydiarachel" target="_blank">
+                                <ion-icon name="logo-github" class="github"></ion-icon>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <ion-icon name="logo-twitter" class="twitter"></ion-icon>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <ion-icon name="logo-googleplus" class="googleplus"></ion-icon>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/lydia-velasquez-253206125/" target="_blank">
+                                <ion-icon name="logo-linkedin" class="linkedin"></ion-icon>
+                        </a>
                     </li>
                 </ul>
             </div>
         </div>
-    </nav>
-
-
-    <!--Header-->
-    <header class="masthead">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 col-md-6 animated slideInLeft" id="animate-pic">
-                    <img src="assets/images/MeWatercolorCircle.png" id="myPic" style="width:70%;height:90%">
-                </div>
-                <div class="col-lg-6 col-md-6 animated slideInRight" id="name-title">
-                    <h1 id="name">LYDIA VELASQUEZ</h1>
-                    <h2 id="title">DESIGNER AND FRONTEND DEVELOPER</h2>
-                </div>
-                <div class="down js-scroll-trigger">
-                    <a href="#about">
-                        <img src="assets/images/downArrow.png">
-                    </a>
-                </div>
-            </div>
-    </header>
-    <!--About-->
-    <section id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 animated slideInUp" id="flower">
-                    <img src="assets/images/flowerscreen.png">
-                </div>
-            </div>
-            <p>Bonbon ice cream donut cotton candy. Carrot cake fruitcake powder muffin. Ice cream powder ice cream macaroon
-                oat cake bonbon soufflé chocolate lemon drops. Ice cream powder gingerbread. Oat cake lollipop dessert lollipop
-                pie candy canes icing gingerbread candy. Croissant tootsie roll liquorice lemon drops jelly beans biscuit
-                croissant sesame snaps lollipop. Chocolate cake macaroon carrot cake candy canes. Apple pie jujubes croissant
-                chocolate cake tart. Sugar plum apple pie powder lemon drops jelly beans candy canes. Macaroon caramels candy
-                canes. Jujubes cookie brownie. Pudding ice cream chocolate cake donut apple pie dessert lemon drops lemon
-                drops tootsie roll. Cake candy canes wafer chocolate cake chocolate liquorice. Tiramisu cake tootsie roll
-                cake tart.</p>
-
-        </div>
-        </div>
-    </section>
-    <!-- Portfolio Grid Section -->
-    <section class="portfolio" id="portfolio">
-        <div class="container" >
-            <h2 class="text-center text-uppercase text-secondary mb-0">Portfolio</h2>
-            <hr class="star-dark mb-5">
-            <div class="row">
-                <div class="col-md-6 col-lg-4">
-                    <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-1">
-                        <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                            <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img class="img-fluid" src="assets/images/hangman-thumbnail.png" alt="">
-                    </a>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-2">
-                        <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                            <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img class="img-fluid" src="assets/images/Crystals-thumbnail.png" alt="">
-                    </a>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-3">
-                        <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                            <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img class="img-fluid" src="assets/images/giftastic-thumbnail.png" alt="">
-                    </a>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-4">
-                        <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                            <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img class="img-fluid" src="" alt="">
-                    </a>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-5">
-                        <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                            <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img class="img-fluid" src="" alt="">
-                    </a>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-6">
-                        <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                            <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img class="img-fluid" src="" alt="">
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- About Section -->
-    <section class="bg-primary text-white mb-0" id="about">
-        <div class="container">
-            <h2 class="text-center text-uppercase text-white"></h2>
-            <hr class="star-light mb-5">
-            <div class="row">
-                <div class="col-lg-4 ml-auto">
-                </div>
-                <div class="col-lg-4 mr-auto">
-                </div>
-            </div>
-            <div class="text-center mt-4">
-                <a class="btn btn-xl btn-outline-light" href="#">
-                    <i class="fa fa-download mr-2"></i>
-                </a>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact">
-        <div class="container">
-            <h2 class="text-center text-uppercase text-secondary mb-0">Contact Me</h2>
-            <hr class="star-dark mb-5">
-            <div class="row">
-                <div class="col-lg-8 mx-auto">
-                    <form name="sentMessage" id="contactForm" novalidate="novalidate">
-                        <div class="control-group">
-                            <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                                <label>Name</label>
-                                <input class="form-control" id="name" type="text" placeholder="Name" required="required" data-validation-required-message="Please enter your name.">
-                                <p class="help-block text-danger"></p>
-                            </div>
-                        </div>
-                        <div class="control-group">
-                            <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                                <label>Email Address</label>
-                                <input class="form-control" id="email" type="email" placeholder="Email Address" required="required" data-validation-required-message="Please enter your email address.">
-                                <p class="help-block text-danger"></p>
-                            </div>
-                        </div>
-                        <div class="control-group">
-                            <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                                <label>Phone Number</label>
-                                <input class="form-control" id="phone" type="tel" placeholder="Phone Number" required="required" data-validation-required-message="Please enter your phone number.">
-                                <p class="help-block text-danger"></p>
-                            </div>
-                        </div>
-                        <div class="control-group">
-                            <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                                <label>Message</label>
-                                <textarea class="form-control" id="message" rows="5" placeholder="Message" required="required" data-validation-required-message="Please enter a message."></textarea>
-                                <p class="help-block text-danger"></p>
-                            </div>
-                        </div>
-                        <br>
-                        <div id="success"></div>
-                        <div class="form-group">
-                            <button type="submit" class="btn btn-primary btn-xl" id="sendMessageButton">Send</button>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="footer text-center">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4 mb-5 mb-lg-0">
-                    <h4 class="text-uppercase mb-4">Location</h4>
-                    <p class="lead mb-0">Huntersville, NC</p>
-                </div>
-                <div class="col-md-4 mb-5 mb-lg-0">
-                    <h4 class="text-uppercase mb-4">Around the Web</h4>
-                    <ul class="list-inline mb-0">
-                        <li class="list-inline-item">
-                            <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
-                                <i class="fa fa-fw fa-facebook"></i>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
-                                <i class="fa fa-fw fa-google-plus"></i>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
-                                <i class="fa fa-fw fa-twitter"></i>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
-                                <i class="fa fa-fw fa-linkedin"></i>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
-                                <i class="fa fa-fw fa-dribbble"></i>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-md-4">
-                    <h4 class="text-uppercase mb-4"></h4>
-                    <p class="lead mb-0">
-                        <a href=""></a>
-                    </p>
-                </div>
-            </div>
+        <div class="row">
+            <p>
+                Copyright &copy; 2018 Lydia Velasquez
+            </p>
         </div>
     </footer>
-
-    <div class="copyright py-4 text-center text-white">
-        <div class="container">
-            <small>Copyright &copy; Lydia Velasquez 2018</small>
-        </div>
-    </div>
-
-    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
-    <div class="scroll-to-top d-lg-none position-fixed ">
-        <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top">
-            <i class="fa fa-chevron-up"></i>
-        </a>
-    </div>
-
-    <!-- Portfolio Modals -->
-
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
-    <!-- Custom JavaScript -->
-    <script src="assets/js/index.js"></script>
-
+    <!--Ion Icons CDN-->
+    <script src="https://unpkg.com/ionicons@4.1.2/dist/ionicons.js"></script>
+    <!--jQuery CDN-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!--jQuery Flip-->
+    <script src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js"></script>
+    <!--WayPoints jQuery-->
+    <script src="./assets/js/jquery.waypoints.min.js"></script>
+    <!--Custom JavaScript-->
+    <script src="./assets/js/script.js"></script>
 </body>
 
 </html>
