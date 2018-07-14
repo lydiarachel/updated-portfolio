@@ -214,9 +214,11 @@
 /*small phones: from 0-480px*/
 @media only screen and (max-width:480px){
 
+    html, 
     body {
         overflow-x: hidden;
         width: 100%;
+        margin: 0 20px 0 20px;
     }  
 
     section { padding: 25px 0;}
