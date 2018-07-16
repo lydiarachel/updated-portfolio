@@ -89,7 +89,7 @@ $(document).ready(function () {
 
 /*Modal*/
 //get modal element
-var modal=document.getElementById("simpleModal");
+var modal=document.getElementById("portfolioModal1");
 //get open modal button 
 var modalBtn = document.getElementById("modalBtn");
 //get close button
