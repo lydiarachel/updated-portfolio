@@ -101,8 +101,7 @@
         <ul class="portfolio-showcase clearfix">
             <li>
                 <figure class="portPhoto">
-                    <a href="https://lydiarachel.github.io/Hangman-Game/" target="_blank">
-                        <img src="assets/images/tiffanys.jpg" alt="Breakfast at Tiffany's">
+                    <img src="assets/images/tiffanys.jpg" alt="Breakfast at Tiffany's" class="button" id="modalBtn">
                     </a>
                 </figure>
             </li>
@@ -127,10 +126,31 @@
                 </figure>
             </li>
         </ul>
-        <div class="modal-background">
+        <div id="simpleModal" class="modal-background modal">
             <div class="modal-content">
-                <h3>Whatever I want</h3>
-                <img src="assets/images/tiffanys.jpg" alt="Breakfast at Tiffany's">
+                <div class="modal-header">
+                    <span class="closeBtn">&times;</span>
+                    <h2>Breakfast at Tiffany's Hangman Game</h2>
+                </div>
+
+                <div class="modal-body">
+                    <p>A Hangman Game that will run in the browser, and feature dynamically updated HTML and CSS, powered by
+                        the JavaScript code. Using key events to listen for the letters that a player will type, the theme
+                        of the game is Breakfast at Tiffany's.
+                    </p>
+                    <br>
+                    <p>
+                        The game will start when a player presses any key, and guesses the word.  The game will display the number of guesses remaining,
+                        as well as letters already guessed. Once the wins or loses the game, the game will automatically
+                        restart, allowing the user to play again.
+                    </p>
+                </div>
+                <br>
+                <div class="modal-footer">
+                    <h3>
+                        <a href="https://lydiarachel.github.io/Hangman-Game/" target="_blank">View Game</a>
+                    </h3>
+                </div>
             </div>
 
         </div>
