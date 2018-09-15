@@ -1,0 +1,58 @@
+{
+    "first-project":  {
+            "id": "",
+            "title": "Breakfast at Tiffany's",
+            "body": "<p>A Hangman Game that runs in the browser, and features dynamically updated HTML and CSS using vanilla JavaScript. </br> </br> Using key events to listen for the letters that a player will type, the theme is Breakfast at Tiffany's.</p>",
+            "link": "https://lydiarachel.github.io/Hangman-Game",
+            "cta": "View Game"
+        },
+        "second-project":  {
+            "id": "",
+            "title": "GifTastic",
+            "body": "<p>This application utilizes the Giphy API to make a dynamic web page that populates with gifs that make your heart happy. </br></br> This application makes a call to the GIPHY API, and uses JavaScript and JQuery to change the HTML of the site.</p>",
+            "link": "#",
+            "cta": "View Application"
+        },
+        "third-project":  {
+            "id": "",
+            "title": "Crystal Game",
+            "body": "<p>Body</p>",
+            "link": "#",
+            "cta": "View Game"
+        },
+        "fourth-project":  {
+            "id": "",
+            "title": "Trivia Game",
+            "body": "<p>Body</p>",
+            "link": "#",
+            "cta": "View Game"
+        },
+        "fifth-project":  {
+            "id": "",
+            "title": "OmiFood Project",
+            "body": "<p>Body</p>",
+            "link": "#",
+            "cta": "View Project"
+        },
+        "sixth-project":  {
+            "id": "",
+            "title": "Friend Finder",
+            "body": "<p>Body</p>",
+            "link": "#",
+            "cta": "View Application"
+        },
+        "seventh-project":  {
+            "id": "",
+            "title": "Bamazon",
+            "body": "<p>Body</p>",
+            "link": "#",
+            "cta": "View Code"
+        },
+        "eighth-project":  {
+            "id": "",
+            "title": "Burger App",
+            "body": "<p>Body</p>",
+            "link": "#",
+            "cta": "View Application"
+        }
+}

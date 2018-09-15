@@ -44,7 +44,7 @@
                         <a href="#contact">Contact</a>
                     </li>
                     <li>
-                        <a href="https://drive.google.com/file/d/1Uj41Owb9ZU9eQ7azKZf_3plrGm9qcqJU/view?usp=sharing" target "_blank">Resume</a>
+                        <a href="https://drive.google.com/file/d/1Uj41Owb9ZU9eQ7azKZf_3plrGm9qcqJU/view?usp=sharing" target="_blank">Resume</a>
                     </li>
                 </ul>
                 <a class="mobile-nav-icon js--nav-icon">
@@ -100,35 +100,85 @@
 
         <ul class="portfolio-showcase clearfix">
             <li>
-                <figure class="portPhoto">
+                <figure class="portPhoto" id="first-project">
                     <img src="assets/images/tiffanys.jpg" alt="Breakfast at Tiffany's" class="button" id="modalBtn">
                     </a>
                 </figure>
             </li>
             <li>
-                <figure class="portPhoto" <a href="https://lydiarachel.github.io/GifTastic/" target="_blank">
-                    <img src="assets/images/love.gif" alt="GifTastic">
+                <!-- add id second, third, etc project -->
+                <figure class="portPhoto" id="second-project">
+                    <img src="assets/images/love.gif" alt="GifTastic" class="button" id="modalBtn2">
                     </a>
                 </figure>
             </li>
             <li>
-                <figure class="portPhoto">
-                    <a href="https://lydiarachel.github.io/unit-4-game/" target="_blank">
+                <figure class="portPhoto" id="third-project">
                         <img src="assets/images/crystal.png" alt="Crystals Game">
                     </a>
                 </figure>
             </li>
             <li>
-                <figure class="portPhoto">
-                    <a href="https://lydiarachel.github.io/TriviaGame/" target="_blank">
+                <figure class="portPhoto" id="fourth-project">
+                    <!-- <a href="https://lydiarachel.github.io/TriviaGame/" target="_blank"> -->
                         <img src="assets/images/trivia.png" alt="Trivia">
                     </a>
                 </figure>
             </li>
         </ul>
 
-        <!--Modals-->
-        <div id="portfolioModal1" class="modal-background modal">
+        <ul class="portfolio-showcase clearfix">
+            <li>
+                <figure class="portPhoto" id="fifth-project">
+                    <!-- <a href="https://lydiarachel.github.io/omnifoodProject/" target="_blank"> -->
+                        <img src="assets/images/omnifoodproject.png" alt="OmniFoodProject">
+                    </a>
+                </figure>
+            </li>
+            <li>
+                <figure class="portPhoto" id="sixth-project">
+                    <!-- <a href="https://rocky-crag-53861.herokuapp.com/" target="_blank"> -->
+                        <img src="assets/images/friendfinder.png" alt="FriendFinder">
+                    </a>
+                </figure>
+            </li>
+            <li>
+                <figure class="portPhoto" id="seventh-project">
+                    <!-- <a href="https://github.com/lydiarachel/Bamazon" target="_blank"> -->
+                        <img src="assets/images/bamazon.png" alt="bamazon">
+                    </a>
+                </figure>
+            </li>
+            <li>
+                <figure class="portPhoto" id="eighth-project">
+                    <!-- <a href="https://shrouded-wave-33733.herokuapp.com/" target="_blank"> -->
+                        <img src="assets/images/burger.png" alt="Burger">
+                    </a>
+                </figure>
+            </li>
+        </ul>
+    </section>
+
+    <!--Modals-->
+    <div id="portfolioModal1" class="modal-background modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <span class="closeBtn">&times;</span>
+                <h2 id="project-header-name"></h2>
+            </div>
+
+            <div class="modal-body">
+                <p id="project-body"></p>
+            </div>
+            <br>
+            <div class="modal-footer">
+                <h3 id="footer-cta">
+                    <a id="href-link"></a>
+                </h3>
+            </div>
+        </div>
+    </div>
+    <!-- <div id="portfolioModal1" class="modal-background modal">
             <div class="modal-content">
                 <div class="modal-header">
                     <span class="closeBtn">&times;</span>
@@ -154,41 +204,35 @@
                     </h3>
                 </div>
             </div>
+        </div> -->
 
-        </div>
-
-        <ul class="portfolio-showcase clearfix">
-            <li>
-                <figure class="portPhoto">
-                    <a href="https://lydiarachel.github.io/omnifoodProject/" target="_blank">
-                        <img src="assets/images/omnifoodproject.png" alt="OmniFoodProject">
-                    </a>
-                </figure>
-            </li>
-            <li>
-                <figure class="portPhoto">
-                    <a href="https://rocky-crag-53861.herokuapp.com/" target="_blank">
-                        <img src="assets/images/friendfinder.png" alt="FriendFinder">
-                    </a>
-                </figure>
-            </li>
-            <li>
-                <figure class="portPhoto">
-                    <a href="https://github.com/lydiarachel/Bamazon" target="_blank">
-                        <img src="assets/images/bamazon.png" alt="bamazon">
-                    </a>
-                </figure>
-            </li>
-            <li>
-                <figure class="portPhoto">
-                    <a href="https://shrouded-wave-33733.herokuapp.com/" target="_blank">
-                        <img src="assets/images/burger.png" alt="Burger">
-                    </a>
-                </figure>
-            </li>
-        </ul>
-    </section>
-
+        <!-- <div id="portfolioModal2" class="modal-background modal">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <span class="closeBtn">&times;</span>
+                        <h2>GifTastic</h2>
+                    </div>
+    
+                    <div class="modal-body">
+                        <p>This application utilizes the Giphy API to make a dynamic web page that populates with gifs that
+                            make your heart happy. This makes a call to the GIPHY API, and uses JavaScript and JQuery to change the HTML of the site.
+                        </p>
+                        <br>
+                        <p>
+                            The user may click on the buttons already defined, and the application grabs 10 static, non-animated 
+                            Gifs from the GIPHY API and places them on the page.  When the user clicks one of the still Gifs, 
+                            the gif will animate.  Clicking on the Gif again will make it stop playing.  Use the predefined buttons, 
+                            or add what makes you happy in the search box. 
+                        </p>
+                    </div>
+                    <br>
+                    <div class="modal-footer">
+                        <h3>
+                            <a href="https://lydiarachel.github.io/GifTastic/" target="_blank">View App</a>
+                        </h3>
+                    </div>
+                </div>
+            </div> -->
     <!--Skills-->
     <section class="section-skills" id="skills">
         <div class="row skillTitle">
@@ -320,7 +364,7 @@
     </section>
 
     <!--Contact Section-->
-    <section class="section-form" id="contact">
+    <!-- <section class="section-form" id="contact">
         <div class="row contactSection">
             <h2>Happy Happy, Joy Joy!</h2>
         </div>
@@ -353,11 +397,11 @@
                 </div>
             </form>
         </div>
-    </section>
+    </section> -->
 
     <!--Footer-->
     <footer>
-        <div class="row">
+        <div class="row section-form" id="contact">
             <div class="col span-1-of-2">
                 <ul class="footer-nav">
                     <li>

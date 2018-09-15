@@ -1,5 +1,7 @@
 $(document).ready(function () {
 
+    
+
     /*sticky navigation jQuery*/
     $('.js--section-about').waypoint(function (direction) {
         if (direction == "down") {
@@ -91,12 +93,16 @@ $(document).ready(function () {
 //get modal element
 var modal=document.getElementById("portfolioModal1");
 //get open modal button 
-var modalBtn = document.getElementById("modalBtn");
+// var portPhoto = document.getElementsByClassName("portPhoto");
+var portPhoto = $(".portPhoto");
+//figure out this in vanilla js
 //get close button
 var closeBtn = document.getElementsByClassName('closeBtn')[0];
 
 //isten for open click 
-modalBtn.addEventListener('click', openModal);
+// portPhoto.addEventListener('click', openModal);
+portPhoto.click(openModal)
+//figure out this in vanilla js
 
 //listen for close click 
 closeBtn.addEventListener('click', closeModal);
@@ -105,8 +111,32 @@ closeBtn.addEventListener('click', closeModal);
 window.addEventListener('click', clickOutside);
 
 //function to open Modal
-function openModal(){
-    modal.style.display = "block";
+function openModal(event){
+    console.log("just checking.. tee he he");
+    var portfolioText;
+    var btnId = $(this).attr('id');
+    //how do i get this event handler using vanilla JS  homework :)
+    /*json file import*/
+
+// example:
+// modal.getElementsByClassName('.modal-body')
+
+    $.getJSON('/assets/js/portfolio-text.json', function(portfolioText){
+        var titleText = portfolioText[btnId].title;
+        document.getElementById("project-header-name").innerHTML = titleText;
+
+        var bodyText = portfolioText[btnId].body;
+        document.getElementById("project-body").innerHTML = bodyText;
+
+        // var ctaText = portfolioText[btnId].cta;
+        // document.getElementById("footer-cta").innerHTML = ctaText;
+
+        // var hrefLink = portfolioText[btnId].link;
+        // document.getElementById("href-link") = hrefLink;
+//search terms - vanilla js change href, import JSON file with vanilla js, 
+        modal.style.display = "block";
+    })
+    
 }
 
 //function to close modal
@@ -120,5 +150,6 @@ function clickOutside(e){
     modal.style.display = "none";
     }
 }
+
 
 });
