@@ -128,11 +128,16 @@ function openModal(event){
         var bodyText = portfolioText[btnId].body;
         document.getElementById("project-body").innerHTML = bodyText;
 
-        // var ctaText = portfolioText[btnId].cta;
-        // document.getElementById("footer-cta").innerHTML = ctaText;
+        // var hrefTag = portfolioText[btnId].link;
+        // $('#id_of_anchor_tag').attr(href, hrefTag)
 
-        // var hrefLink = portfolioText[btnId].link;
-        // document.getElementById("href-link") = hrefLink;
+        var appLink= portfolioText[btnId].link;
+        var hrefLinkId = document.getElementById("href-link");
+        hrefLinkId.innerHTML =  portfolioText[btnId].cta;
+        hrefLinkId.setAttribute('href', appLink);
+        //it is possible to either hard code this in index.html or use JS to do this
+        // hrefLinkId.setAttribute('target', '_blank');
+
 //search terms - vanilla js change href, import JSON file with vanilla js, 
         modal.style.display = "block";
     })
