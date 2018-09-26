@@ -121,7 +121,7 @@ function openModal(event){
 // example:
 // modal.getElementsByClassName('.modal-body')
 
-    $.getJSON('/assets/js/portfolio-text.json', function(portfolioText){
+    $.getJSON('assets/js/portfolio-text.json', function(portfolioText){
         var titleText = portfolioText[btnId].title;
         document.getElementById("project-header-name").innerHTML = titleText;
 
