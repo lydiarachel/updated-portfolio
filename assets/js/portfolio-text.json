@@ -2,7 +2,7 @@
     "first-project":  {
             "id": "",
             "title": "Breakfast at Tiffany's",
-            "body": "<p>A Hangman Game that runs in the browser, and features dynamically updated HTML and CSS using vanilla JavaScript. </br> </br> Using key events to listen for the letters that a player will type, the theme is Breakfast at Tiffany's. <br> <br>'https://github.com/lydiarachel/Hangman-Game'</p>",
+            "body": "<p>A Hangman Game that runs in the browser, and features dynamically updated HTML and CSS using vanilla JavaScript. </br> </br> Using key events to listen for the letters that a player will type, the theme is Breakfast at Tiffany's. <br> <br><a href: 'https://github.com/lydiarachel/Hangman-Game'></a></p>",
             "link": "https://lydiarachel.github.io/Hangman-Game",
             "cta": "View Game"
         },
