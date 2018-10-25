@@ -2,57 +2,57 @@
     "first-project":  {
             "id": "",
             "title": "Breakfast at Tiffany's",
-            "body": "<p>A Hangman Game that runs in the browser, and features dynamically updated HTML and CSS using vanilla JavaScript. </br> </br> Using key events to listen for the letters that a player will type, the theme is Breakfast at Tiffany's. <br> <br>https://github.com/lydiarachel/Hangman-Game</p>",
+            "body": "<p>A Hangman Game that runs in the browser, and features dynamically updated HTML and CSS using vanilla JavaScript. </br> </br> Using key events to listen for the letters that a player will type, the theme is Breakfast at Tiffany's. </br> JavaScript, Bootstrap, HTML <br><br>https://github.com/lydiarachel/Hangman-Game</p>",
             "link": "https://lydiarachel.github.io/Hangman-Game",
             "cta": "View Game"
         },
         "second-project":  {
             "id": "",
             "title": "GifTastic",
-            "body": "<p>This application utilizes the Giphy API to make a dynamic web page that populates with gifs that make your heart happy. </br></br> This application makes a call to the GIPHY API, and uses JavaScript and JQuery to change the HTML of the site.</p>",
-            "link": "#",
+            "body": "<p>This application utilizes the Giphy API to make a dynamic web page that populates with gifs that make your heart happy. </br></br> This application makes a call to the GIPHY API, and uses JavaScript and JQuery to change the HTML of the site. <br><br> https://github.com/lydiarachel/GifTastic</p>",
+            "link": "https://lydiarachel.github.io/GifTastic/",
             "cta": "View Application"
         },
         "third-project":  {
             "id": "",
             "title": "Crystal Game",
-            "body": "<p>Body</p>",
-            "link": "#",
+            "body": "<p>This web application allows a player to guess the answer, just like in Word Guess. This time, though, the player will guess with numbers instead of letters.</br>JQuery, HTML, CSS </br></br> https://github.com/lydiarachel/unit-4-game</p>",
+            "link": "https://lydiarachel.github.io/unit-4-game/",
             "cta": "View Game"
         },
         "fourth-project":  {
             "id": "",
             "title": "Trivia Game",
-            "body": "<p>Body</p>",
-            "link": "#",
+            "body": "<p>A ThunderCats Trivia Game form with multiple choice options. </br></br> JavaScript, HTML, CSS </br></br> https://github.com/lydiarachel/TriviaGame </p>",
+            "link": "https://lydiarachel.github.io/TriviaGame/",
             "cta": "View Game"
         },
         "fifth-project":  {
             "id": "",
             "title": "OmiFood Project",
-            "body": "<p>Body</p>",
-            "link": "#",
+            "body": "<p>A personal project through Udemy course. A mock online food order program. Upscale and beautiful design.</br></br>JavaScript, HTML, CSS </br></br>https://github.com/lydiarachel/omnifoodProject</p>",
+            "link": "https://lydiarachel.github.io/omnifoodProject/",
             "cta": "View Project"
         },
         "sixth-project":  {
             "id": "",
             "title": "Friend Finder",
-            "body": "<p>Body</p>",
-            "link": "#",
+            "body": "<p> A compatibility-based 'FriendFinder' application -- basically a dating app. This full-stack site will take in results from the users' surveys, then compare their answers with those from other users. The app will then display the name and picture of the user with the best overall match.</br></br> JavaScript, Node and Express Servers</br></br> https://github.com/lydiarachel/FriendFinder</p>",
+            "link": "https://rocky-crag-53861.herokuapp.com/",
             "cta": "View Application"
         },
         "seventh-project":  {
             "id": "",
             "title": "Bamazon",
-            "body": "<p>Body</p>",
-            "link": "#",
+            "body": "<p>An Amazon-like storefront using MySQL. The app takes in orders from customers and depletes stock from the store's inventory.</br></br>Node.JS and MySQL </br></br>https://github.com/lydiarachel/Bamazon</p>",
+            "link": "https://github.com/lydiarachel/Bamazon",
             "cta": "View Code"
         },
         "eighth-project":  {
             "id": "",
             "title": "Burger App",
-            "body": "<p>Body</p>",
-            "link": "#",
+            "body": "<p>A burger logger with MySQL, Node, Express, Handlebars and a homemade ORM (yum!). MVC design pattern. </br></br>https://github.com/lydiarachel/burger</p>",
+            "link": "https://shrouded-wave-33733.herokuapp.com/",
             "cta": "View Application"
         }
 }
