@@ -300,6 +300,14 @@
         display: inline-block;
     }
 
+    .phone {
+        margin-left: 85px;
+    }
+
+    .email {
+        margin-left: 60px;
+    }
+
     .social-links{
         margin-right: 20%;
         padding: -10%;
