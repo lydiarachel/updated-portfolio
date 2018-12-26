@@ -200,6 +200,13 @@
         display: inline-block;
     }
 
+    .phone {
+        margin-left: 65px;
+    }
+
+    .email {
+        margin-left: 50px;
+    }
     .social-links{
         margin-right: 20%;
         padding: -10%;
@@ -218,7 +225,6 @@
     body {
         overflow-x: hidden;
         width: 100%;
-        margin: 0;
     }  
 
     section { padding: 25px 0;}
@@ -243,27 +249,40 @@
     .selfie img { 
         width: 280px;
         height: auto;
-        margin-bottom: -200px;
+        margin-bottom: 100px;
+        margin-top: -50px;
+        margin-left: 20px;
         border-bottom-left-radius: 50%;
         border-bottom-right-radius: 50%;
         border-top-right-radius: 50%;
         border-top-left-radius: 50%;
     }
     
-    
     .flower img{
         display: none;
 
+    }
+
+    /* .long-copy{
+        width: 100%;
+        margin-left: 5%;
     }
 
     .about {
         margin-right: 500px;
         margin-top: 50px;
         font-weight: 900;
-    }
+    } */
 
-    .row .portSection {
-        margin-top: 70px;
+    .long-copy {
+        line-height: 145%;
+        width: 85%;
+        margin-left: 10%;
+    }
+    
+    .about {
+        margin-right: 200px;
+        font-weight: 900;
     }
 
     .portfolio-showcase li {
@@ -301,15 +320,15 @@
     }
 
     .phone {
-        margin-left: 85px;
+        margin-left: 50px;
     }
 
     .email {
-        margin-left: 60px;
+        margin-left: 30px;
     }
 
     .social-links{
-        margin-right: 20%;
+        margin-right: 15%;
         padding: -10%;
         margin-top: 10%;
     }
