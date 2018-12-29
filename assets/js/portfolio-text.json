@@ -2,7 +2,7 @@
   "nurd-project": {
     "id": "",
     "title": "NuRd",
-    "body": "<p>A group JAMStack web application created at the FreeCodeCamp Hackathon in San Francisco (11/2018).</br> </br> The application transforms a mathmatic equation (numbers), into mathmatic word problems. </br> ReactJS, FaunaDB API, FormSpree API, HTML, CSS, Deployed to Netlify. <br><br>https://github.com/lydiarachel/nu-rd</p>",
+    "body": "<p>A group JAMStack web application created at the FreeCodeCamp Hackathon in San Francisco (11/2018).</br> </br> The application transforms a mathmatic equation (numbers), into mathmatic word problems. </br> </br>ReactJS, FaunaDB API, FormSpree API, HTML, CSS, Deployed to Netlify. <br><br>https://github.com/lydiarachel/nu-rd</p>",
     "link": " https://keen-boyd-38d83f.netlify.com/",
     "cta": "View App"
   },
@@ -13,12 +13,12 @@
     "link": "https://lydiarachel.github.io/GifTastic/",
     "cta": "View Application"
   },
-  "third-project": {
+  "getthegist-project": {
     "id": "",
-    "title": "Crystal Game",
-    "body": "<p>This web application allows a player to guess the answer, just like in Word Guess. This time, though, the player will guess with numbers instead of letters.</br></br>JQuery, HTML, CSS </br></br> https://github.com/lydiarachel/unit-4-game</p>",
-    "link": "https://lydiarachel.github.io/unit-4-game/",
-    "cta": "View Game"
+    "title": "Get the Gist",
+    "body": "<p>A web application group project that allows mini written blog contributions from real life pros or novices in various aspects of life and business, in order to provide helpful information to users. Guests can have read only access to the written contributions.</br></br>Built using ReactJS, Materialize, Node and Express Server, MongoDB and Mongoose, and deployed in Heroku.</br></br>https://github.com/lydiarachel/theDahlingsProject</p>",
+    "link": "http://get-the-gist.herokuapp.com/",
+    "cta": "View App"
   },
   "fourth-project": {
     "id": "",
