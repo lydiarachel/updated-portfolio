@@ -403,6 +403,10 @@ header {
     animation-duration: 1s;
 }
 
+.modal-content p {
+    word-wrap: break-word;
+}
+
 @keyframes modalopen {
     from{opacity: 0};
     to{opacity: 1};
