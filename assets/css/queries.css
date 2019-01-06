@@ -199,6 +199,7 @@
     .modal-content{
         max-height: calc(100vh - 200px);
         overflow-y: auto;
+        width: 90%;
     }
     .skillTitle{
         margin-top: 50px;
@@ -310,6 +311,7 @@
     .modal-content{
         max-height: calc(100vh - 200px);
         overflow-y: auto;
+        width: 90%;
     }
 
     .skillTitle{
